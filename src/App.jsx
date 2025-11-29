@@ -1,6 +1,7 @@
 import React from 'react'
 import ComA from './components/ComA'
 import Forms from './components/Forms'
+import MemoCallback from './components/MemoCallback'
 
 const App = () => {
   return (
@@ -10,7 +11,10 @@ const App = () => {
       {/* //session task 
        <ComA /> */}
 
-       <Forms />
+       {/* <Forms /> */}
+
+       <MemoCallback />
+       
     </div>
   )
 }
